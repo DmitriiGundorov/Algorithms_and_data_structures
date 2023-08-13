@@ -58,7 +58,7 @@ public class LinkedList<T> {
         }
         return previousNode;
     }
-
+/*
     public static void main(String[] args) {
         System.out.println("\n" + "Задание. Реализовать метод разворота односвязного списка." + "\n");
         LinkedList<Integer> list = new LinkedList<>();
@@ -74,5 +74,5 @@ public class LinkedList<T> {
         System.out.println("Реверсивный список:");
         list.reverseList();
         list.print();
-    }
+    }*/
 }

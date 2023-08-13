@@ -1,14 +1,11 @@
 package org.example;
 
-import java.util.Collections;
+import org.w3c.dom.NodeList;
 
-
-// Задание. Необходимо реализовать метод разворота односвязного списка.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("\n" + "------ Задача ------" + "\n");
+        System.out.println("\n" + "Задание. Реализовать метод разворота односвязного списка." + "\n");
         LinkedList<Integer> list = new LinkedList<>();
-
         list.add(10);
         list.add(5);
         list.add(6);
@@ -16,9 +13,10 @@ public class Main {
         list.add(1);
         list.add(7);
         list.add(3);
-
+        System.out.println("Связный список:");
         list.print();
-
+        System.out.println("Реверсивный список:");
+        list.reverseList();
         list.print();
     }
 }
