@@ -2,7 +2,6 @@ package org.example;
 
 public class LinkedList<T> {
 
-
     public int size() {
         return size;
     }
@@ -34,11 +33,9 @@ public class LinkedList<T> {
 
     //метод разворота списка
 
-
     private class Node {
         T value;
         Node next;
-
 
         Node(T value) {
             this.value = value;
@@ -65,7 +62,6 @@ public class LinkedList<T> {
     public static void main(String[] args) {
         System.out.println("\n" + "Задание. Реализовать метод разворота односвязного списка." + "\n");
         LinkedList<Integer> list = new LinkedList<>();
-
         list.add(10);
         list.add(5);
         list.add(6);
